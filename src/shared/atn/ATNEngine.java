@@ -275,6 +275,7 @@ public class ATNEngine {
                timestepsToSave = timesteps;
                stopEvent = ATNEventHandler.EventType.NONE;
            }
+           timestepsToSave = Math.min(timestepsToSave, calcBiomass.length);
 
        } else {
 
